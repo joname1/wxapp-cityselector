@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="index">
+    <text>点击更换城市</text>
+    <navigator class="location" url="../cityselect/cityselect">{{location}}{{county}}</navigator>
+</view>
